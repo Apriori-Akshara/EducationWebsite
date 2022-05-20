@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 .navColor{
     background-color:  #F0572F;
 }
@@ -209,4 +210,10 @@ font-size: small;
     .cardSliderUnder{
         display: none !important; 
     }
+}
+@media (max-width:575px) {
+   .wi100{
+       width: 100% !important;
+   }
+    
 }
