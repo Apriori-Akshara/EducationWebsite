@@ -24,7 +24,7 @@ eventData.map((item,index)=>(
     <div class="col-md-6 mt-3">
     <div class="row justify-content-around">
       <div class="col-lg-6 col-md-12">
-        <div class="backHW text-center"
+        <div class="backHW text-center "
         
         >
         <!-- background image set -->
@@ -37,7 +37,7 @@ eventData.map((item,index)=>(
         </P>
         </div>
       </div>
-      <div class="col-lg-6  text-start"
+      <div class="col-lg-6  text-center at575center"
       style="color:#F3F3F3 ;font-weight: 600;">
         <p><b
           style="color:#0F0F0F;" 

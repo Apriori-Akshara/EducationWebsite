@@ -29,6 +29,7 @@ background-color: #F3F3F3;
     background-image: url("https://i.pinimg.com/736x/39/9b/12/399b123b8ddd9fc9cb8de02c1d67725d.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+    height: 900px !important;
   padding:150px 0px;
     
 }
@@ -36,6 +37,7 @@ background-color: #F3F3F3;
     background-image: url("https://www.todaysparent.com/wp-content/uploads/2011/10/iStock_000010376541Small.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+    height: 900px !important;
   padding:210px 0px;
     
 }
@@ -159,10 +161,52 @@ font-size: small;
         text-align: center;
         margin-top: 20px !important;
     }
+    .backHW{
+        margin:0 auto  ;
+        text-align: center !important;
+    }
+    .at575center{
+        text-align: center !important;
+    }
 }
 .stick{
     position: fixed !important;
     width: 100%;
     z-index: 999;
  
+}
+.orange input{
+    outline: 2px solid #F0572F;
+}
+.star{
+    color:#F0572F;
+}
+
+.bottomfixed{
+    position: fixed !important;
+    bottom: 0 !important;
+    background-color:#000000 !important;
+    width: 100%;
+    z-index: 999;
+    display: none !important;
+    height: 50px !important;
+
+   
+}
+.bottomfixed a{
+    text-decoration: none;
+}
+@media (max-width:768px) {
+    .bottomfixed{
+        display: block !important;
+    }
+}
+.cardSliderUnder{
+    background-color: #F3F3F3;
+    
+}
+@media (max-width:1080px) {
+    .cardSliderUnder{
+        display: none !important; 
+    }
 }
